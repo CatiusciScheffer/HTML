@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #262626;
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 765px;
+    height: 585px;
+    padding-bottom: 32px;
+}
+
+.pitch{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-image: url('./img/celularxx.png');
+    background-position: start;
+    background-size: -20px 375px 585px;
+    flex-basis: 380.32px;
+    height: 585px;
+    width: 420px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+
+@media(max-width: 100%) {
+    .pitch {
+        display: block;
+    }
+}
+/*quando a tela fica menor que o container a imagem do celular some e fica apenas a área de login*/
+@media(max-width: 770px) {
+    .pitch {
+        display: none;
+    }
+}
+
+.form{
+    margin-top: 16px;
+    width: 348px;
+    height: 396px;
+}
+
+.form 
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        border: 1px solid #dbdbdb;
+        border-radius: 1px;
+        margin: 0 0 10px;
+        padding-bottom: 10px;
+        padding-top: 18px;      
+    }
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 22px;
+        margin-bottom: 25px;
+    }
+    
+    input{
+        width: 100%;
+        background-color: #FAFAFA;
+        box-sizing: border-box;
+        border: 1px solid #dbdbdb;
+        color:#dbdbdb;
+        border-radius: 4px;
+        padding: 9px 0 7px 8px;
+        width: 268px;
+        height: 38px;
+        font-size: 12px;
+        margin: 3px;
+        text-overflow: ellipsis;
+    }
+    
+    button{
+        appearance: none;
+        background-color: #b2dffc;
+        border: 0;
+        line-height: 18px;
+        color: #FAFAFA;
+        font-weight: bolder;
+        font-size: 14px;
+        border-radius: 4px;
+        height: 30px;
+        width: 268px;
+        margin: 10px 40px;
+    }
+    
+    .separator{
+        display: flex;
+        font-size: 12px;
+        color: #8e8e8e;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 267.78px;
+        height: 15px;
+        margin: 10px auto 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        
+    }
+    .separator::after{
+        content: "";
+        width: 106px;
+        height: 1px;
+        display: block;
+        background-color: #dbdbdb;    
+    }
+
+    .separator::before{
+        content: "";
+        width: 106px;
+        height: 1px;
+        display: block;
+        background-color: #dbdbdb;
+    }
+    
+    .img-facebook{
+        max-width: 16px;
+        max-height: 16px;
+        margin: 0;
+        margin-right: 7px;
+    }
+    
+    .login-with-facebook{
+            color: #385185;
+            font-weight: bold;
+            display: flex;
+            margin:0;
+            margin-bottom: 16px;
+            flex-direction: row;
+            justify-content:center;
+            align-items:center;
+            font-size: 14px;
+        }
+
+    .forgot-password{
+        color: #00376b;
+        font-size: 12px;
+        margin-bottom: 10px;
+        font-weight: lighter;
+    }
+
+    .signup{
+        border: 1px solid #dbdbdb;
+        background-color: #FFFFFF;
+        padding: 10px 0;
+        max-height: 63px;
+        margin: 0 0 10px;
+        }
+
+    .signup a{
+        color: #069bf6;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+.get-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.get-app p{
+    width: 355px;
+    color: #262626;
+    margin: 14px;
+}
+    
+.get-app-img{
+    margin: 3px;
+    padding: 0;
+    width: 100%;
+    width: 135px;
+    height: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    margin: 32px auto 0;
+    max-width: 990px;
+    height: 75px;  
+    margin-bottom: 60px;
+
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    text-align: center;
+    margin: 6px;
+    color:#8e8e8e;
+    font-weight: lighter;
+    font-size: 12px;
+    
+}
+
+.footer span{
+    text-align: center;
+    color:#8e8e8e;
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 10px;
+}

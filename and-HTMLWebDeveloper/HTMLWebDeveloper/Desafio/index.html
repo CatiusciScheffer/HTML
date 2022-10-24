@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+   <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+   <hr />
+
+   <h2 id="indice">Índice</h2>
+   <ul>
+      <li>Descrição do funcionamento das TAGS estudadas</li>
+      <ul>
+         <li><a href="#titulos">Tags &lt;h1&gt ao &lt;h6&gt</a> - Títulos</li>
+         <li><a href="#small">Tag &lt;small&gt</a> - Textos pequenos.</li>
+         <li><a href="#mark">Tag &lt;mark&gt</a> - Marcar o texto com marca texto.</li>
+         <li><a href="#formated">Tag &lt;strong&gt</a> - Negrito e Itálico</li>
+         <li><a href="#abreviacoes">Tag &lt;abbr&gt</a> - Legenda de Abreviações</li>
+         <li><a href="#">Tag &lt;hr&gt</a></li>
+         <li><a href="#citacoes">Tag &lt;blockquote&gt</a> - Citações</li>
+      </ul>
+   </ul>
+   <ul>
+      <li><a href="#referencias">Links de referências</a></li>
+   </ul> 
+   <h2 id="titulos">Criar Título em HTML com usando do h1 ao h6:</h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         Títulos em HTML são conhecidos como headings (que, traduzindo do Inglês, significa título mesmo 😅 ). Os títulos possuem SEIS NÍVEIS de  hierarquia, e esses níveis servem para organizar nosso conteúdo. Para isso, usamos as  tags &    lt;h1>, &lt;h2>, &lt;h3>, &lt;h4>, &lt;h5> e &lt;h6> para demarcar nossos títulos. <br>
+         Mas cuidado! Tamanho não é documento! <br>
+         Tem muita gente por aí que acha que &lt;h1> significa “texto   com     fonte grande” e &lt;h6> significa “texto com fonte pequena”. Isso não tem  fundamento algum! Por favor, se
+         alguém te disse isso algum dia, essa pessoa estava    completamente equivocada. <br>
+         Um &lt;h1> significa que esse é um assunto principal e é    sobre ele que vamos escrever. Já o &lt;h2> significa que esse é um sub-assunto do &lt;h1> que está imediatamente acimadele. O &lt;h3> significa que esse é um sub-assunto do &lt;h2> que está acima dele. E assim sucessivamente até o &lt;h6>.
+      </p>
+      
+   <h2 id="small">Tag &lt;small></h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         Tem certas coisas que simplesmente não são fáceis de entender. A
+         tag <big> (que deixava o texto maior) está depreciada pela        HTML5,
+         mas a tag &lt;small> (que deixa o texto menor> segue firme e forte
+         na vida da linguagem.
+         E não adianta ficar me olhando com essa cara de reprovação. Eu          não tenho culpa
+         nenhuma por conta dessa decisão, sou apenas um mero professor        que se foca em
+         mostrar os fatos, não em fazê-los ter um sentido claro. Tem          certas coisas que a gente
+         não questiona, só aceita que dói menos.
+      </p>
+   <h2 id="mark"> Usar marca texto na página com a tag &lt;mark></h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         Provavelmente você já viu ou usou uma dessas canetas marca texto em seu dia-a-dia. Elas servem para você marcar uma parte do texto na qual você quer dar uma ênfase descomunal, já que se trata de um trecho muito valioso para você, assim como acabamos de fazer.
+         Para fazer essas marcas em HTML5, usamos a tag <strong>&lt;mark>…&lt;/mark></strong> para delimitar o <mark>texto que queremos demarcar</mark>, como se estivéssemos usando uma caneta marcador.
+      </p>
+   <h2 id="formated">Negrito e Itálico</h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         
+         Vamos ver agora algumas formatações bem usadas das últimas versões da linguagem, começando pelos famosos <strong>negrito</strong> e <em>itálico</em>. <br>
+         Como vimos anteriormente, existem as tags &lt;b> e &lt;i> para essa tarefa, mas elas não possuem significado e focam apenas na forma, sendo assim, são pouco semânticos. <br>
+         Sendo assim, recomendamos que você passe a usar as tags <strong>&lt;strong> e &lt;em></strong> para realizar essas mesmas formatações visuais, só que agora com sentido. <br>
+         A tag <strong>&lt;strong></strong> significa que o termo delimitado possui força dentro da frase. Logo, ele aparecerá em negrito.
+         Já a tag <strong><em>&lt;em></em></strong> significa que queremos dar ênfase (do Inglês emphasis) ao termo.
+         Logo, ele aparecerá em itálico. <br>
+         Note que, ao usar <strong>&lt;strong></strong> e <strong>&lt;em></strong> no lugar de <strong>&lt;b></strong> e <strong>&lt;i></strong>, damos mais significado aos nossos termos e conteúdos. Como eles vão ser representados visualmente (forma), vai depender das nossas folhas de estilo CSS.
+      </p>
+   <h2 id="abreviacoes">Abreviações usando tag &lt;abbr></h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         Essa é uma novidade da <abbr title="Hiper Text Markup Language">HTML5</abbr> e que ajuda muito em áreas como a de Tecnologia, que usa muitas siglas e abreviações. Sempre que você quiser escrever uma sigla, mas deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag &lt;abbr>.
+         Quando passamos o mouse sobre a sigla abreviada, um pequeno texto aparece com o seu significado.
+      </p>
+   <h2 id="quebralinha">Quebra de Linha</h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         Na verdade, todas aquelas quebras que causamos não servem de ABSOLUTAMENTE NADA! Isso acontece porque <strong>quem comanda quebras de linhas/parágrafos <mark>não</mark> é o fato de apertar Enter</strong> a quenbra só irá acontecer com uso da tag <strong>&lt;br></strong>. <br>
+         A tag <strong>&lt;br></strong> significa literalmente “quebre a linha” (break row) e agora que você sabe o significado, não precisa nem de explicação né?
+      </p>
+   <h2 id="citacoes">"Citações"</h2>
+      <small><a href="#indice">&lt;&lt;Início</a></small>
+      <p>
+         Se você já escreveu um texto sequer na sua vida, com certeza já teve que fazer citações. <br> <blockquote>"Uma citação é um trecho de texto, escrito ou dito por outra pessoa, que vai ilustrar perfeitamente algo que você quer explicar."</blockquote> <br> Normalmente, uma citação aparece entre aspas ou com as margens deslocadas em relação ao texto. 
+         <br> Para criar uma citação em HTML, <strong>podemos usar a tag &lt;q></strong> (do Inglês quote, que significa citar). O texto que estiver entre <strong>&lt;q></strong> e <strong>&lt;/q></strong> já vai receber automaticamente as aspas, mas não terá nenhum deslocamento. <br>
+         Essa técnica é mais usada quando queremos uma citação no meio de um parágrafo. <br> 
+         Também podemos criar citações mais longas (em bloco) e que tenham um parágrafo só para si. <br> Nesse caso, colocaremos tudo  dentro de <strong>&lt;blockquote></strong> e <strong>&lt;/blockquote></strong> e o texto ganha um recuo automaticamente. Podemos também colocar um link para o texto original, usando o parâmetro cite dentro da tag.
+      </p>
+   <h2 id="referencias">Links de referências</h2>
+      <ul>
+      <li><a href="#">https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf</a></li>
+      </ul>
+   <small><a href="#indice">&lt;&lt;Início</a></small>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Passion+One&family=Raleway:wght@200&family=Rubik+Moonrocks&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&family=Rubik+Moonrocks&family=Sriracha&family=Staatliches&display=swap');
+
+:root{
+    --font0:'Oswald', sans-serif;
+    --font1:'Raleway', sans-serif;
+    --font2:'Rubik Moonrocks', cursive;
+    --font3:'Staatliches', cursive;
+    --font4:'Sriracha', cursive;
+    --font5:'Passion One', cursive;
+    --font6: 'Verdana, Geneva, Tahoma', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.cabeçalho{
+    background-color: #3D4256;
+    color: white;
+    text-align: center;
+}
+
+.cabeçalho p{
+    font-size: 16px;
+    font-family: var(--font6);
+    padding-bottom: 50px;
+}
+.cabeçalho h1{
+    font: normal small-caps 400 clamp(1em, 5em + 1vw, 5em) var(--font5);
+    padding-top: 50px;
+}
+
+.corpo{
+    font: normal clamp(1em, 1em + 1vw, 3em) var(--font4);
+    text-align: left;
+    background-color: #ebd0b67c;
+    line-height: 2.5em;
+    padding-top: 5vh;
+}
+
+.corpo p{
+    padding-bottom: 2em;
+}
+
+.semimg{
+    padding: 51.4px 0 51.4px 30px;
+}
+
+.comimg{
+    padding: 51.4px 0 51.4px 30px;
+    background: url('../img/cartas.jpg') #982A2B center center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.514);
+}
+
+.comimg p{
+    display: inline-block; /*faz a caixa se adaptar ao tamanho do conteúdo*/
+    padding: 25px;
+    background-color: #303135c9;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    margin-right: 30px;
+}
+
+.comimg1{
+    padding: 51.4px 0 51.4px 30px;
+    background: url('../img/cartas3.jpg') #982A2B center center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.514);
+
+}
+
+.comimg1 p{
+    display: inline-block;
+    padding: 25px;
+    background-color: #303135c9;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    margin-right: 30px;
+}
+
+footer{
+    text-align: center;
+    font: normal clamp(.6em, 0.8em + 1vw, .9em) var(--font6);
+    background-color: #3D4256;
+    color: white;
+    padding: 5px;
+}

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
+
 <body>
-    <form name="signup" onsubmit="alert('Formulário enviado com sucesso!')" method="post" action="meusite.com.br/signup">
+    <form name="signup" onsubmit="alert('Formulário enviado com sucesso!')" method="post"
+        action="meusite.com.br/signup">
+        <h2>Formulário</h2>
         <label for="lblnome">Nome:</label>
         <input type="text" name="nome" id="formNome">
         <br>
@@ -20,6 +24,45 @@
         <button type="submit">Enviar</button>
         <input type="checkbox" name="dd" disabled>
         <input type="checkbox" name="dd">
+        <div class="buttons">
+            <h3>Tipos de botões</h3>
+            <button type="button" onclick="alert('Clique aqui')">Type 'button'</button>
+            <button type="reset">Type 'reset'</button>
+            <button type="submit">Type 'submit'</button>
+        </div>
+        <div class="select">
+            <label for="opção">Utilizando Select e Option</label>
+            <select name="role">
+                <option value="">Selecione uma opção</option> <!---->
+                <option value="auxiliar">Estagiário</option>
+                <option value="gerente">Gerente</option>
+                <option value="diretor">Diretor</option>
+                <option value="socio">Sócio</option>
+            </select>
+            <br>
+            <label for="opção">Utilizando Select e Option + selected</label>
+            <select name="select">
+                <option value="auxiliar">Estagiário</option>
+                <option value="gerente" selected>Gerente</option>
+                <option value="diretor">Diretor</option>
+                <option value="socio">Sócio</option>
+            </select>
+            <br>
+            <label for="opção">Utilizando Select e Option + multiple:</label>
+            <select name="multiple" multiple>
+                <option value="">Selecione a/as opções</option>
+                <option value="auxiliar">Chocolate Branco</option>
+                <option value="gerente">Morango</option>
+                <option value="diretor">Cocô</option>
+                <option value="socio">Nutella</option>
+            </select>
+        </div>
+        <div class="txarea">
+            <h3>Text área</h3>
+            <textarea name="texto" cols="30" rows="10">Deixe aqui sua mensagem.</textarea>
+        </div>
+
     </form>
 </body>
+
 </html>

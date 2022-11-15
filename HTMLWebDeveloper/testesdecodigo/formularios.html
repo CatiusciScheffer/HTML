@@ -12,14 +12,17 @@
     <form name="signup" onsubmit="alert('Formulário enviado com sucesso!')" method="post"
         action="meusite.com.br/signup">
         <h2>Formulário</h2>
-        <label for="lblnome">Nome:</label>
-        <input type="text" name="nome" id="formNome">
-        <br>
-        <label for="lblidade">Idade</label>
-        <input type="number" name="idade" id="formIdade">
-        <br>
-        <label for="lblpassword">Senha:</label>
-        <input type="password" name="password" id="formPassword">
+        <fieldset>
+            <legend>Dados Login</legend>
+            <label for="lblnome">Nome:</label>
+            <input type="text" name="nome" id="formNome">
+            <br>
+            <label for="lblidade">Idade</label>
+            <input type="number" name="idade" id="formIdade">
+            <br>
+            <label for="lblpassword">Senha:</label>
+            <input type="password" name="password" id="formPassword">
+        </fieldset>
         <br>
         <button type="submit">Enviar</button>
         <input type="checkbox" name="dd" disabled>

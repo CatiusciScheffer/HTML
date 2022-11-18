@@ -46,7 +46,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     box-shadow:2px 0px 10px rgba(0, 0, 0, 0.493);
-    background-color:var(--cor5);
+    background-color:var(--cor1);
     font-weight: 700;
     height: auto;
 }

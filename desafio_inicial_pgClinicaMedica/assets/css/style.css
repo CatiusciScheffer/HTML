@@ -44,7 +44,6 @@ a:link {
     display: flex;
     flex-wrap: nowrap;
 }
-
 .menu{
     display: flex;
     flex-flow: column nowrap;
@@ -58,20 +57,20 @@ a:link {
     display: flex;
     justify-content: center;
     align-items:center;
-    padding: 20px;
-    min-width: 80px;
+    padding: 15px;
+    min-width: 50px;
     box-shadow:2px 0px 5px rgba(0, 0, 0, 0.199);
     height: 20%;
-    color: var(--cor7);    
+    color: var(--cor7);   
 }
 
 .header{
+    line-height: 0;/*espaço entre linhas*/
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
-    text-align: center;
+    justify-content:space-around;
     box-shadow:2px 5px 10px rgba(0, 0, 0, 0.199);
-    background-image: linear-gradient(180deg,var(--cor3), var(--cor2), var(--cor2), var(--cor3));
+    margin: auto;
 }
 
 .header-logo{
@@ -100,4 +99,44 @@ a:link {
 
 .redes-sociais{
     margin: 0 15px;
+}
+
+/*CONTATO*/
+.content-contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+    padding: 5px;
+    margin: 30px 0 30px;
+}
+
+.borda{
+    padding: 10px;
+}
+
+.formulario{
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.googlemaps{
+   min-width: 250px;
+   text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    background-color: var(--cor1);
+    font-weight: bolder;
+    color: var(--cor3);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+}
+
+input, textarea{
+    border-radius: 5px;
+    border: solid 1px #00000048;
 }

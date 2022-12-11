@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recusros Especiais</title>
+</head>
+<style>
+  kbd {
+    border-radius: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    color: grey;
+  }
+</style>
+
+<body>
+  <h3>Select Box</h3>
+  <select name="browsers">
+    <option value="Chrome">Google Chrome</option>
+    <option value="Firefox">Firefox</option>
+    <option value="Opera">Opera</option>
+    <option value="Safari">Safari</option>
+  </select>
+  <h3>Datalist</h3>
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+  <h3>Tag &lt;kbt&gt;</h3>
+  <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+  <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+  <h3>Tag &lt;code&gt;</h3>
+  <p>The HTML <code>button</code> tag defines a clickable button.</p>
+  <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+  <h3>Tag &lt;pre&gt;</h3>
+  <pre>
+    <code>
+      animais = [gato, cachorro, papagaio, cobra]
+      print(animais[1])
+    </code>
+    <samp>cachorro</samp>
+  </pre>
+  <p>Message from my computer:</p>
+  <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+  <h3>tag &lt;details&gt;</h3>
+  <details>
+    <summary>Saiba Mais</summary>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet repudiandae vel fuga doloremque officia cupiditate autem soluta numquam illo! Laborum rerum sunt perspiciatis ipsa explicabo fugit vitae non cumque commodi.</p>
+  </details>
+</body>
+
+
+
+</html>

@@ -17,3 +17,6 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 - [Wikipedia](https://pt.wikipedia.org/)
 
 
+## Conclusão
+
+Não me detive muito em formatar, mas aproveitei muito o conhecimento das ferramentas e conhecimentos sobre acessibilidade, que pra mim foi a parte principal e mais importante.
